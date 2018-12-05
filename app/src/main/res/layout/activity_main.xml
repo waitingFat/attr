@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myshop.whatsmode.com.fuck.MainActivity">
+
+    <myshop.whatsmode.com.fuck.FuckView
+        android:id="@+id/cv_countdownView"
+        android:layout_width="23dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="15dp"
+        app:isHideBg="false"
+        app:isShowDay="false"
+        app:isShowHour="true"
+        app:isShowMillisecond="false"
+        app:isShowMinute="true"
+        app:isShowSecond="true"
+        app:isSuffixTextBold="true"
+        app:isTimeTextBold="true"
+        app:suffixGravity="center"
+        app:suffixTextColor="#555555"
+        app:suffixTextSize="14sp"
+        app:timeBgColor="#000000"
+        app:timeBgRadius="3dp"
+        app:timeBgSize="14dp"
+        app:timeTextColor="#ffffff"
+        app:timeTextSize="14sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp" />
+
+</RelativeLayout>
